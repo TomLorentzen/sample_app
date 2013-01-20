@@ -4,14 +4,15 @@ gem 'rails', '3.2.11'
 
 gem 'jquery-rails'
 
+gem 'capybara'
+
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 end
 
-group :test do
-	gem 'capybara'
-end
+# group :test do
+# end
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
