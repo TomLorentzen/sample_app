@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
+<% provide(:title, "Home") %>
 
-<head>
-	<title>quarkgammon | Home</title>
-</head>
-
-<body>	
-<h1>Sample App</h1>
-<p>This is the Home Page.</p>
+<h1>quarkgammon</h1>
+<p>This is the <%= yield(:title) %> Page.</p>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <a href="/">Back to Rails Intro Screen</a>
-
-
-
-</body>
-
-</html>
