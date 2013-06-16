@@ -11,7 +11,10 @@ def shw (h)
 	
 	h.each do |k, v|
 
-	puts "#{k} equals #{v[:age]}"
+	# puts "#{k} equals #{v[:age]}"
+	
+	puts "#{v[:name]} \t has been assigned a value of #{v[:age]}"
+
 	end
 end
 
