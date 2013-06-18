@@ -1,6 +1,6 @@
 #tfl hash new version 6/16/2013
 
-a = {'p1' => {:name => "alice", 	:age => 1},
+myhash = {'p1' => {:name => "alice", 	:age => 1},
 	 'p2' => {:name => "bill", 		:age => 2},
 	 'p3' => {:name => "carol", 	:age => 3},
 	 'p4' => {:name => "david", 	:age => 4},
@@ -18,5 +18,4 @@ def shw (h)
 	end
 end
 
-shw(a)
-
+shw(myhash)
