@@ -1,11 +1,13 @@
 #tfl hash new version 6/16/2013
 
-myhash = {'p1' => {:name => "alice", 	:age => 1},
-	 'p2' => {:name => "bill", 		:age => 2},
-	 'p3' => {:name => "carol", 	:age => 3},
-	 'p4' => {:name => "david", 	:age => 4},
-	 'p5' => {:name => "ed", 		:age => 5}}
+myhash = {'p1'=> {name: "alice", age: 1},
+	 'p2' => {name: "bill", 	  age: 2},
+	 'p3' => {name: "carol", 	  age: 3},
+	 'p4' => {name: "david", 	  age: 4},
+	 'p5' => {name: "ed", 		  age: 5}}
 
+puts myhash.to_a.class
+puts myhash.to_a.inspect
 
 def shw (h)  
 	
